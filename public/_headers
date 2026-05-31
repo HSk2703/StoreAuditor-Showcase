@@ -1,0 +1,9 @@
+/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-site
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; script-src 'self' https://*.supabase.co https://www.clarity.ms https://www.googletagmanager.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://*.supabase.co https://*.composio.dev https://api.firecrawl.dev https://www.clarity.ms https://www.google-analytics.com https://connect.facebook.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'
